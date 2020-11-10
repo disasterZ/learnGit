@@ -79,6 +79,8 @@ git tag <name> (<commit id>)
 ##查看标签信息
 git show <tagname>
 
+转载自git教学网站：https://www.liaoxuefeng.com/wiki/896043488029600
+
 
 
 
