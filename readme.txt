@@ -72,4 +72,15 @@ git pull
 ##变基
 git rebase
 
+#标签管理
+##创建标签(-a指定标签名，-m指定说明文字,-d删除标签)
+git tag <name> (<commit id>)
+
+##查看标签信息
+git show <tagname>
+
+
+
+
+
 
