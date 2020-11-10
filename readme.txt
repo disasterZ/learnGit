@@ -45,3 +45,31 @@ git push (-u) origin <branch>
 
 ##克隆本地库
 git clone <link>
+
+##创建分支(未加分支名则为显示当前分支)
+git branch (-d/-D)(删除分支/强制删除) <name>
+
+##切换分支
+git checkout <name>
+git switch <name>
+
+##创建分支并切换
+git checkout -b <name>
+git switch -c <name>
+
+##合并分支
+git merge
+
+##查看分支合并图
+git log --graph
+
+##查看远程库信息
+git remote -v
+
+##抓取分支
+git pull
+
+##变基
+git rebase
+
+
