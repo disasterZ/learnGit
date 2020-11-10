@@ -36,3 +36,12 @@ git rm <file>
 ##误删恢复(从来没有被添加到版本库就被删除的文件，是无法恢复的！)
 git checkout -- <file>
 
+#远程仓库
+##关联远程库
+git remote add origin <link>
+
+##推送
+git push (-u) origin <branch>
+
+##克隆本地库
+git clone <link>
