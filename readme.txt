@@ -79,6 +79,26 @@ git tag <name> (<commit id>)
 ##查看标签信息
 git show <tagname>
 
+#暂存
+##暂存
+git stash
+
+##查看暂存
+git stash list
+
+##恢复现场同时不删除内容
+git stash apply
+
+##删除现场
+git stash drop
+
+##恢复现场同时删除内容
+git stash pop
+
+##将指定提交用于其他分支
+git cherry-pick <commit>
+
+
 转载自git教学网站：https://www.liaoxuefeng.com/wiki/896043488029600
 
 
